@@ -5,6 +5,7 @@ Tags: spaceapi, json
 Requires at least: 3.5
 Tested up to: 3.5.2
 Stable tag: 0.1
+License: GPLv3
 
 This Plugin provides a [Space Api](http://spaceapi.net) Json file.
 
