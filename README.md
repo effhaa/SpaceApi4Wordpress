@@ -7,6 +7,8 @@ __Warning:__ This plugin is right now pretty much a proof of concept. It doesnt 
 
 With Permalinks enabled, you can access the file with http://yourdomain.tld/spaceapi.json, otherwise http://yourdomain.tld/?spaceapi=show
 
+This plugin provides a hook for other plugins: The Array with the Output for the JSON can be modified using add_filter('spaceapi_data_result', 'yourfunction'); - see extending-spaceapi-example.php.gz for a small example. Feel free to add your door sensor and similar stuff.
+
 Contact
 -------
 Contact me via github, or here:

@@ -3,7 +3,7 @@
 Plugin Name: Spaceapi
 Plugin URI: http://fholzhauer.de
 Description: Generate a space api file
-Version: 0.01
+Version: 0.1.1
 Author: Florian Holzhauer
 License: GPL
 */
@@ -31,7 +31,7 @@ if (!class_exists('fh_wpplugin_spaceapi')) {
         var $base = false;
         var $folder = false;
 
-        const VERSION = '0.1';
+        const VERSION = '0.1.1';
         /**
          * Identifier-Prefix for Forms and Settings
          * @var string
@@ -202,6 +202,7 @@ if (!class_exists('fh_wpplugin_spaceapi')) {
                 }
                 $data['api'] = '0.12';
                 $data['open'] = null;
+                $data = apply_filters('spaceapi_data_result',$data);
                 echo json_encode($data);
                 die();
             }
