@@ -1,6 +1,8 @@
 Space Api Wordpress Plugin
 =============
 
+__Deprecated__ There is a [much nicer](https://wordpress.org/plugins/hackerspace/) plugin with Space API support and additional interesting hackerspaces features. Please use that one. My plugin is currently not maintained.
+
 This Plugin provides a [Space Api](http://spaceapi.net) Json file.
 
 __Warning:__ This plugin is right now pretty much a proof of concept. It doesnt validate anything and is far from being a nice and maintainable source. It should work however.

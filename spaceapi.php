@@ -3,7 +3,7 @@
 Plugin Name: Spaceapi
 Plugin URI: http://fholzhauer.de
 Description: Generate a space api file
-Version: 0.1.1
+Version: 0.1.2
 Author: Florian Holzhauer
 License: GPL
 */
@@ -31,7 +31,7 @@ if (!class_exists('fh_wpplugin_spaceapi')) {
         var $base = false;
         var $folder = false;
 
-        const VERSION = '0.1.1';
+        const VERSION = '0.1.2';
         /**
          * Identifier-Prefix for Forms and Settings
          * @var string
@@ -223,7 +223,8 @@ if (!class_exists('fh_wpplugin_spaceapi')) {
 <div class="wrap">
 <h2>$title</h2>
 <form id="settings" action="" method="post">
-<b>Warning: No field validation!</b>
+<p><b>Warning: No field validation!</b></p>
+<p>This plugin is <b>deprecated</b>. Please consider disabling it, and to use the <a href="https://wordpress.org/plugins/hackerspace/">hackerspace plugin</a> instead.</p>
 $inner
 <p class="submit">
 	<input type="hidden" name="submitted" />
